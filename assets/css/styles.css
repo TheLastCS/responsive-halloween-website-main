@@ -241,11 +241,108 @@ img {
 
 
 /*=============== HOME ===============*/
+.home{
+  position: relative;
+}
 
+.home__container{
+  padding-top: 3.5rem;
+}
+
+.home__data{
+  text-align: center;
+}
+
+.home__title{
+  position: relative;
+  font-size: var(--biggest-font-size);
+  line-height: 140%;
+  width: max-content;
+  margin: 0 auto .5rem;
+}
+
+.home__title-img-1,
+.home__title-img-2{
+  width: 40px;
+  position: absolute;
+}
+
+.home__title span{
+  display: block;
+  font-family: var(--second-font);
+  font-weight: initial;
+  color: var(--first-color);
+}
+
+.home__title-img-1{
+  top: -1rem;
+  left: -1.5rem;
+  transform: rotate(-15deg);
+  animation: animate-star-1 5s infinite ease-in-out;
+}
+
+.home__title-img-2{
+  bottom: 2.75rem;
+  right: -1.5rem;
+  transform: rotate(15deg);
+  animation: animate-star-2 5s infinite ease-in-out;
+}
+
+.home__description{
+  margin: 2.5rem;
+}
+
+.home__img{
+  width: 300px;
+  justify-self: center;
+  margin-top: 1.5rem;
+}
+
+.home__tree-1,
+.home__tree-2{
+  width: 120px;
+  position: absolute;
+  top: 18rem;
+}
+
+.home__tree-1{
+  left: -2rem;
+}
+
+.home__tree-2{
+  right: -2rem;
+}
 
 /* Star animation */
+@keyframes animate-star-1{
+  0%{
+    transform: scale(.7) rotate(-15deg);
+    opacity: .2;
+  }
+  50%{
+    transform: scale(1) rotate(-15deg);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(.7) rotate(-15deg);
+    opacity: .2;
+  }
+}
 
-
+@keyframes animate-star-2{
+  0%{
+    transform: scale(1) rotate(15deg);
+    opacity: 1;
+  }
+  50%{
+    transform: scale(.7) rotate(15deg);
+    opacity: .2;
+  }
+  100%{
+    transform: scale(1) rotate(15deg);
+    opacity: 1;
+  }
+}
 
 /*=============== BUTTON ===============*/
 
