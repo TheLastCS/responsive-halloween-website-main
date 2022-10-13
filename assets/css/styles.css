@@ -344,6 +344,16 @@ img {
   }
 }
 
+.home .shape__small{
+  top: -3rem;
+  left: -3rem;
+}
+
+.home .shape__big{
+  bottom: 5rem;
+  right: -10rem;
+}
+
 /*=============== BUTTON ===============*/
 .button{
   display: inline-block;
