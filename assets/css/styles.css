@@ -235,7 +235,10 @@ img {
 }
 
 /* Change background header */
-
+.bg-header{
+  background-color: var(--body-color);
+  box-shadow: 0 4px 8px hsla(22, 10%, 2%, .4);
+}
 
 /* Active link */
 
