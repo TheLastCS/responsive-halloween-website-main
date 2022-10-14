@@ -541,6 +541,10 @@ img {
 }
 
 /*=============== PARTY ===============*/
+.party{
+  position: relative;
+}
+
 .party__container{
   row-gap: 5rem;
 }
