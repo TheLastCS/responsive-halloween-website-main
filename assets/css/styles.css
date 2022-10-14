@@ -590,7 +590,73 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer{
+  position: relative;
+  overflow: hidden;
+}
 
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  margin-bottom: 1.25rem;
+  transition: color .3s;
+}
+
+.footer__logo img{
+  width: 20px;
+}
+
+.footer__logo:hover{
+  color: var(--first-color-alt);
+}
+
+.footer__description{
+  font-size: var(--small-font-size);
+}
+
+.footer__content,
+.footer__links{
+  display: grid;
+}
+
+.footer__content{
+  grid-template-columns: repeat(2, max-content);
+  gap: 2.5rem 4.5rem;
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1.5rem;
+}
+
+.footer__links{
+  row-gap: .75rem;
+}
+
+.footer__link{
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  transition: color .3s;
+}
+
+.footer__link:hover{
+  color: var(--first-color);
+}
+
+.footer__social-link{
+  color: var(--first-color);
+  font-size: 1.25rem;
+  transform: color .3s, transform .3s;
+}
+
+.footer__social-link:hover{
+  color: var(--first-color-alt);
+  transform: translateY(-.25rem);
+}
 
 /*=============== SCROLL BAR ===============*/
 
