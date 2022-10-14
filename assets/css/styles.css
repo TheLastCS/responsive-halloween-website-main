@@ -411,6 +411,22 @@ img {
   margin-bottom: .5rem;
 }
 
+.category__description{
+  font-size: var(--small-font-size);
+}
+
+.category__star{
+  width: 40px;
+  position: absolute;
+  top: 3.5rem;
+  right: .5rem;
+  transform: rotate(15deg);
+}
+
+.category__card:hover .category__img{
+  transform: translateY(-.5rem);
+}
+
 /*=============== ABOUT ===============*/
 
 
