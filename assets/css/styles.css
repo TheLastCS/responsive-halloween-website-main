@@ -178,7 +178,7 @@ img {
   width: 20px;
 }
 
-.nav__logo{
+.nav__logo:hover{
   color: var(--first-color);
 }
 
@@ -212,6 +212,10 @@ img {
   color: var(--white-color);
   font-family: var(--second-font);
   transition: color .4s;
+}
+
+.nav__link:hover{
+  color: var(--first-color);
 }
 
 .nav__close{
@@ -677,6 +681,25 @@ img {
 .footer__tree-2{
   left: -1.5rem;
   bottom: -.5rem;
+}
+
+.footer__copy{
+  position: relative;
+  display: block;
+  margin-top: 8rem;
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  color: var(--text-color-light);
+}
+
+.footer .shape__small{
+  right: -7rem;
+  top: 15rem;
+}
+
+.footer .shape__big{
+  left: -8rem;
+  bottom: -5rem;
 }
 
 /*=============== SCROLL BAR ===============*/
