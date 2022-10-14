@@ -486,7 +486,55 @@ img {
   border-radius: 1.5rem;
   padding: 4rem 1.25rem 1.25rem;
   box-shadow: 0 4px 8px hsla(22, 10%, 2%, .3);
+  text-align: center;
 }
+
+.items__img{
+  width: 100px;
+  position: absolute;
+  inset: 0;
+  top: -2rem;
+  margin: 0 auto;
+  transition: transform .3s;
+}
+
+.items__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: .25rem;
+}
+
+.items__price{
+  display: block;
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+  margin-bottom: .5rem;
+}
+
+.items__button{
+  display: inline-flex;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: .25rem 1.5rem;
+  border-radius: 4rem;
+  cursor: pointer;
+  transition: background .3s;
+  border: none;
+  outline: none;
+}
+
+.items__button i {
+  font-size: 1.25rem;
+}
+
+.items__button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.items__card:hover .items__img{
+  transform: translateY(-.5rem);
+}
+
 /*=============== PARTY ===============*/
 
 
