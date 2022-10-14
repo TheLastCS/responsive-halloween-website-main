@@ -663,6 +663,22 @@ img {
   transform: translateY(-.25rem);
 }
 
+.footer__tree-1,
+.footer__tree-2{
+  width: 150px;
+  position: absolute;
+}
+
+.footer__tree-1{
+  top: 4rem;
+  right: -1.5rem;
+}
+
+.footer__tree-2{
+  left: -1.5rem;
+  bottom: -.5rem;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 
