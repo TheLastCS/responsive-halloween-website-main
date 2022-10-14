@@ -725,10 +725,29 @@ img {
 }
 
 /*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  color: var(--first-color);
+  font-size: 1.1rem;
+  background-color: var(--container-color);
+  box-shadow: 0 4px 8px hsla(22, 10%, 2%, .6);
+  padding: .45rem;
+  border-radius: .35rem;
+  display: inline-flex;
+  z-index: var(--z-tooltip);
+  transition: bottom .3s, transform .3s;
+}
 
+.scrollup:hover{
+  transform: translateY(-.25rem);
+}
 
 /* Show Scroll Up*/
-
+.show-scroll{
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
