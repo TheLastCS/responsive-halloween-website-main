@@ -535,6 +535,11 @@ img {
   transform: translateY(-.5rem);
 }
 
+.items .shape__big{
+  bottom: -8rem;
+  right: -8rem;
+}
+
 /*=============== PARTY ===============*/
 
 
