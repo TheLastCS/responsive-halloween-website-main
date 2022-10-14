@@ -457,6 +457,17 @@ img {
   width: 300px;
   justify-self: center;
 }
+
+.about .shape__small{
+  top: 2rem;
+  right: -3rem;
+}
+
+.about .shape__big{
+  bottom: 0;
+  left: -8rem;
+}
+
 /*=============== ITEMS ===============*/
 
 
