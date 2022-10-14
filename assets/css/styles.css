@@ -541,7 +541,49 @@ img {
 }
 
 /*=============== PARTY ===============*/
+.party__container{
+  row-gap: 5rem;
+}
 
+.party__container .section__title{
+  margin-bottom: 1rem;
+}
+
+.party__data{
+  text-align: center;
+}
+
+.party__description{
+  margin-bottom: 2rem;
+}
+
+.party__images{
+  position: relative;
+  justify-self: center;
+}
+
+.party__img{
+  width: 250px;
+}
+
+.party__star-1,
+.party__star-2{
+  width: 50px;
+  position: absolute;
+  transform: rotate(15deg);
+}
+
+.party__star-1{
+  top: -3rem;
+  left: -.5rem;
+  animation: animate-star-1 5s infinite ease-in-out;
+}
+
+.party__star-2{
+  right: -1.5rem;
+  bottom: 2rem;
+  animation: animate-star-2 5s infinite ease-in-out;
+}
 
 /*=============== FOOTER ===============*/
 
