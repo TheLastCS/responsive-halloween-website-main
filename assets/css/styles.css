@@ -427,6 +427,11 @@ img {
   transform: translateY(-.5rem);
 }
 
+.category .shape__small{
+  top: 25rem;
+  left: -4rem;
+}
+
 /*=============== ABOUT ===============*/
 
 
