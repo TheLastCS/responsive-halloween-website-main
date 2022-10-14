@@ -647,10 +647,15 @@ img {
   color: var(--first-color);
 }
 
+.footer__social{
+  display: flex;
+  column-gap: 1.25rem;
+}
+
 .footer__social-link{
   color: var(--first-color);
   font-size: 1.25rem;
-  transform: color .3s, transform .3s;
+  transition: color .3s, transform .3s;
 }
 
 .footer__social-link:hover{
