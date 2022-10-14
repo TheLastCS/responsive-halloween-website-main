@@ -469,8 +469,24 @@ img {
 }
 
 /*=============== ITEMS ===============*/
+.items{
+  position: relative;
+}
 
+.items__container{
+  padding-top: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 4rem 1.5rem;
+}
 
+.items__card{
+  position: relative;
+  background-color: var(--container-color);
+  border-radius: 1.5rem;
+  padding: 4rem 1.25rem 1.25rem;
+  box-shadow: 0 4px 8px hsla(22, 10%, 2%, .3);
+}
 /*=============== PARTY ===============*/
 
 
