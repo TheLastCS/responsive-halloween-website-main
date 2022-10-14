@@ -433,8 +433,30 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about{
+  position: relative;
+}
 
+.about__container{
+  row-gap: 3.5rem;
+}
 
+.about__container .section__title{
+  margin-bottom: 1rem;
+}
+
+.about__data{
+  text-align: center;
+}
+
+.about__description{
+  margin-bottom: 2rem;
+}
+
+.about__img{
+  width: 300px;
+  justify-self: center;
+}
 /*=============== ITEMS ===============*/
 
 
