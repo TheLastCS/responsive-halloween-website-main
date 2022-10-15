@@ -1057,3 +1057,24 @@ img {
   }
 }
 /* For 2K resolutions (2048 x 1152) */
+@media screen and (min-width: 2048px){
+  /* .body{
+    zoom: 1.6;
+  } */
+
+  .home{
+    position: relative;
+    max-width: 1400px;
+    overflow: hidden;
+  }
+
+  .home__tree-1,
+  .home__tree-2{
+    top: 5rem;
+  }
+
+  .footer__tree-1,
+  .footer__tree-2{
+    width: 300px;
+  }
+}
