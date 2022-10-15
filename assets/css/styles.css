@@ -1035,4 +1035,25 @@ img {
   }
 }
 
+@media screen and (min-width: 1072px){
+  .container{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .home__tree-1,
+  .home__tree-2{
+    width: 450px;
+  }
+
+  .home__img{
+    width: 600px;
+    margin-top: 3rem;
+  }
+
+  .footer__tree-2{
+    left: 10%;
+  }
+}
 /* For 2K resolutions (2048 x 1152) */
